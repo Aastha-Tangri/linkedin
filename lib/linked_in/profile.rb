@@ -3,7 +3,7 @@ module LinkedIn
 
     # xml_reader :three_current_positions, :as => [Position]
 
-    PROFILE_FIELDS = %w[id first_name last_name headline industry
+    PROFILE_FIELDS = %w[id first_name email_address last_name headline industry
                         current_status current_status_timestamp summary
                         specialties proposal_comments associations honors
                         interests picture_url distance num_recommenders public_profile_url]
